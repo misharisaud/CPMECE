@@ -1,0 +1,2 @@
+0.2456898368918942
+{'learning_rate': 0.3947953106618625, 'max_delta_step': 3.745492596858044, 'max_depth': 6, 'min_child_weight': 5.0863732157034995, 'reg_alpha': 4.756153258583937, 'reg_lambda': 4.533544134087658, 'tree_method': 'gpu_hist', 'sampling_method': 'gradient_based'}

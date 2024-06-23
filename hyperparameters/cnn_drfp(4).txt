@@ -1,0 +1,12 @@
+Best Score: 0.35
+filters_1: 6
+filters_2: 20
+filters_3: 26
+kernel_size_1: 15
+kernel_size_2: 15
+kernel_size_3: 7
+dense_units_1: 128
+dense_units_2: 16
+dropout_rate: 0.2
+optimizer: adam
+batch_size: 8

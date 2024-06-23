@@ -1,0 +1,12 @@
+Best Score: 0.41
+filters_1: 2
+filters_2: 12
+filters_3: 26
+kernel_size_1: 3
+kernel_size_2: 9
+kernel_size_3: 11
+dense_units_1: 512
+dense_units_2: 8
+dropout_rate: 0.2
+optimizer: rmsprop
+batch_size: 128

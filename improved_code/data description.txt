@@ -1,0 +1,21 @@
+New features details
+
+
+| Index		| Column														| Description								|
+|-----------|---------------------------------------------------------------|-------------------------------------------|
+| 0:22		| Reaction ID : #products										| Reaction details and old features			|
+| 23:189	| maccs_key0 : maccs_key166										| Maccs keys - molecule features			|
+| 190:379	| chem_des0 : chem_des189										| Chemical descriptors - molecule features	|
+| 380:399	| A : V															| AA Composition - protein features			|
+| 400:799	| AA : VV														| DP Composition - protein features			|
+| 800:1039	| MoreauBrotoAuto_Hydrophobicity1 : MoreauBrotoAuto_Mutability30| Moreau Broto Auto - protein features		|
+| 1040:1279	| MoranAuto_Hydrophobicity1 : MoranAuto_Mutability30			| Moran Auto - protein features				|
+| 1280:1519	| GearyAuto_Hydrophobicity1 : GearyAuto_Mutability30			| Geary Auto - protein features				|
+| 1520:1666	| _PolarizabilityC1 : _HydrophobicityD3100						| CTD - protein features					|
+| 1667:1696	| PAAC1 : PAAC30												| PAAC - protein features					|
+| 1697:1716	| APAAC1 : APAAC20												| APAAC - protein features					|
+| 1717:1736	| PAAC21 : PAAC40												| PAAC - protein features					|
+| 1737:1826	| tausw1 : taugrant45											| SOCN - protein features					|
+| 1827:1926	| QSOSW1 : QSOgrant50											| QSO - protein features					|
+| 1927:2269	| 111 : 777														| traid - protein features					|
+| 2270:2276	| geomean_kcat : log10_kcat_norm								| kcat values and old features				|
