@@ -1,4 +1,4 @@
-New features details
+Pybiomed and chemical features details
 
 
 | Index		| Column														| Description								|
