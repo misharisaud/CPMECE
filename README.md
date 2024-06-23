@@ -87,18 +87,16 @@ We have not only increased performance using CNN but also improved the performan
 **Download Dataset**
 - To download the full dataset which also contain the enzyme to numeric representation dataset (for finetuning the ESM1b Model) follow these instructions.
   - Before running the Jupyter notebooks, download and unzip a [data folder from figshare](https://figshare.com/articles/dataset/cpmece-data_rar/26085421). Afterwards, this repository should have the following structure:
-      ├── .ipynb_checkpoints                   
-      ├── __MACOSX
-	  ├── BiGG_data
-	  ├── DLKcat
-	  ├── enzyme_data
-	  ├── kcat_data
-	  ├── KM_data
-	  ├── metabolite_data
-	  ├── reaction_data
-	  ├── Source Data
-      └── training_results
-- Otherwise use given dataset which only contain dataset to train and test the turnover prediction.
+      
+	  ```
+		├── enzyme_data
+		├── kcat_data
+		├── metabolite_data
+		├── reaction_data
+		└── training_results
+		
+	  ```
+		
 
 **Install Requirements**
 To set up the project locally, set up the virtual env using the following instructions.
@@ -107,4 +105,28 @@ To set up the project locally, set up the virtual env using the following instru
   ```
   conda create -n turnover-pred python=3.10.12 -y
   pip install -r requirements_final.txt
+  ```
+- For feature generation code, you will need to install 'rdkit' and 'PyBioMed' packages which are not on the requirements list. 
+- Please install 'RDKit' from [here](https://www.rdkit.org/docs/Install.html) and install 'PyBioMed' from [here](https://pybiomed.readthedocs.io/en/latest/User_guide.html)
+
+  
+
+**Feature Generation**
+To re-generate PyBioMed and Chemical features you will need to run 'pybiomed-chemical-descriptors_calculation.py' python script. 
+- You will find this python scrpit as per the following path.
+
+  ```
+  └── CPMECE 
+	└── improved_code
+	   └── preprocessing
+		  └── feature-calculation
+  
+  ```
+
+You will need to set the 'fpath' and 'mol_folder' variables to their actual paths on your device as per the following examples.
+
+  ```
+  fpath = "path to 'kcat_data' folder"
+  
+  mol_folder = "path to 'mol-files' folder"
   ```
